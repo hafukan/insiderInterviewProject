@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Case For Insider">
+    <listeners>
+        <listener class-name="com.hfk.insider.listeners.ReportListener"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"></parameter>
+
+    <test name="deneme Test">
+        <classes>
+            <class name="com.hfk.insider.InsiderTestCase"/>
+        </classes>
+    </test>
+
+</suite>
